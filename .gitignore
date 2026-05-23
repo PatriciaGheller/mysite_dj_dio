@@ -1,0 +1,42 @@
+# Arquivos do Python
+__pycache__/
+*.pytest_cache/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Arquivos do Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Configurações locais
+.env
+*.local
+*.secret
+
+# Arquivos do VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do Poetry
+# (pyproject.toml e poetry.lock DEVEM ser versionados)
+# mas o cache local não
+.cache/
+.pypoetry/
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+
+# Arquivos de migração gerados automaticamente
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
