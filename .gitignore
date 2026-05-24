@@ -38,5 +38,5 @@ ENV/
 
 # Arquivos de migração gerados automaticamente
 */migrations/__pycache__/
-*/migrations/*.py
+
 !*/migrations/__init__.py
